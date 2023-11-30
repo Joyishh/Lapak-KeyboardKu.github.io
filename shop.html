@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tugas Akhir</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+
+    <!-- Poppins Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- Ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--JS-->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #f5fccd">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img src="assets/Logo Lapak kecil.png" alt="logoLapak" width="170" height="50" style="margin-left: 20px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navbar menu-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="what'sNew.html" style="margin-right: 30px; margin-left: -60px">What's New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html" style="margin-right: 30px">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sale.html">Sale</a>
+              </li>
+            </ul>
+          </div>
+          <!--Navbar signin signup-->
+          <div class="ms-auto" id="navbarNav">
+            <ul class="navbar-nav">
+              <div class="search-box">
+                <input type="text" placeholder=" Search here..." />
+              </div>
+              <li class="nav-item">
+                <i class="nav-link uil uil-search search-icon" id="SearchIcon"></i>
+              </li>
+              <li class="nav-item">
+                <a href="checkout.html"><ion-icon style="font-size: 22px; margin: 12px 50px 0px 35px" name="cart-outline"></ion-icon></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" style="font-weight: 500; margin-right: 20px">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signUp.html" style="font-weight: 500; margin-right: 40px">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Side filter -->
+    <div class="container-fluid" style="margin-top: 120px; margin-bottom: 100px">
+      <div class="row">
+        <div class="col-3">
+          <div class="list-kartegori">
+            <h5>Categories</h5>
+            <hr />
+            <h6>Mechanical Keyboards</h6>
+            <h6>Keycaps</h6>
+            <h6>Switches</h6>
+            <h6>Tools</h6>
+            <h5>Shop by Price</h5>
+            <hr />
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultA" />
+            <label class="form-check-label" for="flexCheckDefaultA"> <h6>Under $50</h6> </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultB" />
+            <label class="form-check-label" for="flexCheckDefaultB"> <h6>$50 - $100</h6> </label>
+          </div>
+          <div class="for">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultC" />
+            <label class="form-check-label" for="flexCheckDefaultC"> <h6>$100 - $150</h6> </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultD" />
+            <label class="form-check-label" for="flexCheckDefaultD"> <h6>$150 - $200</h6> </label>
+          </div>
+        </div>
+        <!-- Akhir side filter -->
+        <!-- List Produk -->
+        <div class="col-9">
+          <div class="row row-cols-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card">
+                <img src="assets/Winter TKL.jpg" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Winter TKL</strong></h6>
+                  <a href="productView.html" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/Tungsten1.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Tungsten Switch</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/LubeTools.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Lube Tools</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/Class65.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Class65</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/SwitchOpener.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Switch Opener</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/Space651.jpeg" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Space65</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/Equilibrium.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Equilibrium Desk Mat</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/AflionBlue.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>Aflion Blue Switch</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/GMKPurpleNight.jpg" class="card-img" alt="..." />
+                <div class="card-body">
+                  <h6 class="card-title text-center"><strong>GMK Purple Night</strong></h6>
+                  <a href="#" class="btn w-100">Take a look</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Akhir list produk -->
+          <!-- Pagination -->
+          <nav aria-label="Page navigation example" style="margin-top: 20px">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link active" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Akhir pagination -->
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Akhir menu -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>pakbor@business.com</p>
+          <p>+62 123 4567 8910</p>
+          <p>Surabaya City, East Java, Indonesia</p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="">What's New</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Sale</a></li>
+            <li><a href="">Cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="uil uil-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="uil uil-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="uil uil uil-amazon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <p>Created with <i class="uil uil-heart"></i> by Adrian Satrio</p>
+      </div>
+    </footer>
+    <!-- Akhir footer -->
+  </body>
+</html>

@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+/* Navbar */
+div .container {
+  justify-content: space-between;
+}
+
+a.nav-link {
+  font-weight: 400;
+}
+.navbar .search-icon {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.navbar .cart-icon {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+.navbar .search-box {
+  position: absolute;
+  margin-left: 200px;
+  left: 15px;
+  top: 33%;
+  max-width: 300px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+.navbar.OpenSearch .search-box {
+  opacity: 1;
+  pointer-events: auto;
+}
+.search-box input {
+  margin-left: 450px;
+  margin-top: -50px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #ffff;
+}
+/* Carousel */
+div.carousel-item {
+  width: 100%;
+  height: 50%;
+}
+/* Footer */
+footer {
+  background: #f5fccd;
+  padding-top: 50px;
+}
+footer div.container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  width: 33.3%;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p {
+  width: 200px;
+  margin: auto;
+  padding: 7px;
+  text-align: center;
+}
+.footer-content ul {
+  text-align: center;
+}
+.list {
+  padding: 0;
+}
+.list li {
+  color: black;
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #d6cc99;
+  transition-duration: 0.5s;
+}
+.list li:hover::before {
+  width: 70px;
+}
+.social-icons {
+  text-align: center;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i {
+  color: black;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.social-icons i:hover {
+  color: #d6cc99;
+}
+.bottom-bar {
+  background: #d6cc99;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p {
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+/* Button Biru */
+.btn {
+  background-color: #78d6c6;
+  color: white;
+  width: 120px;
+  align-content: left;
+}
+.btn:hover {
+  color: #78d6c6;
+  background-color: transparent;
+  border-color: #78d6c6;
+}
+/* New product home */
+.banner-item-image .centered-button {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translateX(-50%, -50%);
+}
+/* What's new page */
+img.card-img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+h5 {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+p.desc {
+  font-weight: lighter;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+h5 {
+  font-weight: 700;
+}
+h6 {
+  margin-bottom: 20px;
+}
+
+div.list-kartegori h6 {
+  cursor: pointer;
+}
+/* Product View */
+.col-4 h3 {
+  text-align: left;
+  font-weight: 400;
+}
+
+.col-4 p {
+  margin-top: 50px;
+  font-weight: 300;
+}
+
+.col-4 button {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.col-6 h3 {
+  font-weight: 400;
+  text-align: left;
+}
+
+.btn:active {
+  color: #78d6c6;
+  background-color: white;
+  border-color: #78d6c6;
+}
+
+.col-6 li {
+  font-weight: 300;
+}
+/* Button buy ijo */
+#buy {
+  margin-top: 60px;
+  background-color: #419197;
+  color: white;
+  width: 120px;
+}
+
+#buy:hover {
+  color: #419197;
+  background-color: white;
+  border-color: #419197;
+}
+
+/* Login dan Sign Up */
+.box-area {
+  width: 930px;
+}
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+::placeholder {
+  font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+}
+
+/* banner sale */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-sale {
+  background: linear-gradient(-55deg, #f5fccd 29%, #ffff 29.1%, #ffff 68%, #f5fccd 68.1%);
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 5px 10px #0005;
+  overflow: hidden;
+}
+
+.banner-container .banner .content {
+  flex: 1 1 250px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* card sale */
+.harga span {
+  text-decoration: line-through;
+}
+.harga strong {
+  font-weight: 700;
+}
+.harga b {
+  font-weight: 400;
+}
+/* Checkout */
+.ketPage h4 {
+  font-weight: 700;
+}

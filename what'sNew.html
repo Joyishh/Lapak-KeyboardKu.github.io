@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tugas Akhir</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+
+    <!-- Poppins Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- Ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--JS-->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #f5fccd">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img class="btLogo" href="home.html" src="assets/Logo Lapak kecil.png" alt="logoLapak" width="170" height="50" style="margin-left: 20px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navbar menu-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="what'sNew.html" style="margin-right: 30px; margin-left: -60px">What's New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html" style="margin-right: 30px">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sale.html">Sale</a>
+              </li>
+            </ul>
+          </div>
+          <!--Navbar signin signup-->
+          <div class="ms-auto" id="navbarNav">
+            <ul class="navbar-nav">
+              <div class="search-box">
+                <input type="text" placeholder=" Search here..." />
+              </div>
+              <li class="nav-item">
+                <i class="nav-link uil uil-search search-icon" id="SearchIcon"></i>
+              </li>
+              <li class="nav-item">
+                <a href="checkout.html"><ion-icon style="font-size: 22px; margin: 12px 50px 0px 35px" name="cart-outline"></ion-icon></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" style="font-weight: 500; margin-right: 20px">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signUp.html" style="font-weight: 500; margin-right: 40px">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Card Custom Keyboard-->
+    <div style="margin-top: 100px; margin-bottom: 100px" class="container">
+      <h1 style="margin-bottom: 25px">Shop New Custom Keyboard</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card">
+            <img src="assets/Winter TKL.jpg" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Winter TKL</h5>
+              <p class="desc card-text">Gorgeous and stunning keyboard like Winter aespa herself.</p>
+              <a href="productView.html" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/WendyTKL.jpg" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Wendy TKL</h5>
+              <p class="desc card-text">TKL size keyboard with beautiful engraving weight</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/Ryujin65 1.png" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ryujin65</h5>
+              <p class="desc card-text">Beautiful compat size keyboard with 65 layout.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Card -->
+    <!-- Card Keycaps -->
+    <div style="margin-top: 100px; margin-bottom: 100px" class="container">
+      <h1 style="margin-bottom: 25px">Shop New Keycaps</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card">
+            <img src="assets/GMKModern Dolch.png" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">GMK Modern Dolch</h5>
+              <p class="desc card-text">Adorn your keyboard with classic retro grays accented by a bright blue-green.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/GMKHallyu 1.png" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">GMK Hallyu</h5>
+              <p class="desc card-text">Dark navy keycaps with colorfull legends and hangul sub-legends.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/GMKZen Pond 1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">GMK Zen Pond</h5>
+              <p class="desc card-text">Inspired by calm, relaxing Japanese Zen ponds & the Koi fish that swim in them.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Card -->
+    <!-- Card Switch & Stab -->
+    <div style="margin-top: 100px; margin-bottom: 100px" class="container">
+      <h1 style="margin-bottom: 25px">Shop New Switch & Stab</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card">
+            <img src="assets/C3 Banana Split.png" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">C³ Banana Split</h5>
+              <p class="desc card-text">Perfect choice linear switches with smooth typing experience.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/C3 Cream Stab.png" class="card-img" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">C³ Cream Stabilizer</h5>
+              <p class="desc card-text">Screw-in stab with POM housing and stem which is makes very smooth.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/SP-Star Blue Pink.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SP-Star Blue Pink</h5>
+              <p class="desc card-text">Inspired by calm, relaxing Japanese Zen ponds & the Koi fish that swim in them.</p>
+              <a href="#" class="btn">Take a look</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Card -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>pakbor@business.com</p>
+          <p>+62 123 4567 8910</p>
+          <p>Surabaya City, East Java, Indonesia</p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="">What's New</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Sale</a></li>
+            <li><a href="">Cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="uil uil-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="uil uil-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="uil uil uil-amazon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <p>Created with <i class="uil uil-heart"></i> by Adrian Satrio</p>
+      </div>
+    </footer>
+    <!-- Akhir footer -->
+  </body>
+</html>
